@@ -1,0 +1,190 @@
+$comment
+	File created using the following command:
+		vcd file decoder_parallel.msim.vcd -direction
+$end
+$date
+	Sun Nov 13 23:35:13 2022
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ps
+$end
+
+$scope module decoder_parallel_vhd_vec_tst $end
+$var wire 1 ! m [3] $end
+$var wire 1 " m [2] $end
+$var wire 1 # m [1] $end
+$var wire 1 $ m [0] $end
+$var wire 1 % v $end
+$var wire 1 & x [7] $end
+$var wire 1 ' x [6] $end
+$var wire 1 ( x [5] $end
+$var wire 1 ) x [4] $end
+$var wire 1 * x [3] $end
+$var wire 1 + x [2] $end
+$var wire 1 , x [1] $end
+$var wire 1 - x [0] $end
+
+$scope module i1 $end
+$var wire 1 . gnd $end
+$var wire 1 / vcc $end
+$var wire 1 0 unknown $end
+$var wire 1 1 devoe $end
+$var wire 1 2 devclrn $end
+$var wire 1 3 devpor $end
+$var wire 1 4 ww_devoe $end
+$var wire 1 5 ww_devclrn $end
+$var wire 1 6 ww_devpor $end
+$var wire 1 7 ww_x [7] $end
+$var wire 1 8 ww_x [6] $end
+$var wire 1 9 ww_x [5] $end
+$var wire 1 : ww_x [4] $end
+$var wire 1 ; ww_x [3] $end
+$var wire 1 < ww_x [2] $end
+$var wire 1 = ww_x [1] $end
+$var wire 1 > ww_x [0] $end
+$var wire 1 ? ww_m [3] $end
+$var wire 1 @ ww_m [2] $end
+$var wire 1 A ww_m [1] $end
+$var wire 1 B ww_m [0] $end
+$var wire 1 C ww_v $end
+$var wire 1 D \m[0]~output_o\ $end
+$var wire 1 E \m[1]~output_o\ $end
+$var wire 1 F \m[2]~output_o\ $end
+$var wire 1 G \m[3]~output_o\ $end
+$var wire 1 H \v~output_o\ $end
+$var wire 1 I \x[2]~input_o\ $end
+$var wire 1 J \x[6]~input_o\ $end
+$var wire 1 K \m1|mc2|y~combout\ $end
+$var wire 1 L \x[7]~input_o\ $end
+$var wire 1 M \x[3]~input_o\ $end
+$var wire 1 N \m1|mc3|y~combout\ $end
+$var wire 1 O \x[0]~input_o\ $end
+$var wire 1 P \x[4]~input_o\ $end
+$var wire 1 Q \m1|mc0|y~combout\ $end
+$var wire 1 R \x[5]~input_o\ $end
+$var wire 1 S \x[1]~input_o\ $end
+$var wire 1 T \m1|mc1|y~combout\ $end
+$var wire 1 U \m1|mvalid|y~0_combout\ $end
+$var wire 1 V \m3|mc1|y~0_combout\ $end
+$var wire 1 W \m3|mc3|y~0_combout\ $end
+$var wire 1 X \m3|mc0|y~0_combout\ $end
+$var wire 1 Y \m3|mc2|y~0_combout\ $end
+$var wire 1 Z \m3|mvalid|y~0_combout\ $end
+$var wire 1 [ \m2|mc2|y~combout\ $end
+$var wire 1 \ \m2|mc3|y~combout\ $end
+$var wire 1 ] \m2|mc0|y~combout\ $end
+$var wire 1 ^ \m2|mc1|y~combout\ $end
+$var wire 1 _ \m2|mvalid|y~0_combout\ $end
+$var wire 1 ` \m1|m1|y~0_combout\ $end
+$var wire 1 a \m1_final|y~0_combout\ $end
+$var wire 1 b \m2|m1|y~0_combout\ $end
+$var wire 1 c \m2_final|y~0_combout\ $end
+$var wire 1 d \m0|xor_z6y6|y~combout\ $end
+$var wire 1 e \m3|m1|y~0_combout\ $end
+$var wire 1 f \m3_final|y~combout\ $end
+$var wire 1 g \m0|popCntOp|hA01|and20|y~combout\ $end
+$var wire 1 h \m0|xor_z7y7|y~0_combout\ $end
+$var wire 1 i \m0|popCntOp|fA10|fA0|and20|y~combout\ $end
+$var wire 1 j \valid|y~0_combout\ $end
+$var wire 1 k \m0|popCntOp|fA10|hA0|and20|y~combout\ $end
+$var wire 1 l \m0|popCntOp|fA20|fA10|or20|y~1_combout\ $end
+$var wire 1 m \m0|popCntOp|fA20|fA10|or20|y~0_combout\ $end
+$var wire 1 n \m0|popCntOp|fA20|hA0|and20|y~combout\ $end
+$var wire 1 o \m0|popCntOp|hA02|and20|y~combout\ $end
+$var wire 1 p \m0|popCntOp|fA20|fA10|or20|y~2_combout\ $end
+$var wire 1 q \m0|popCntOp|fA11|fA0|and20|y~combout\ $end
+$var wire 1 r \m0|xor_m3Op|y~combout\ $end
+$var wire 1 s \valid|ALT_INV_y~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1%
+0.
+1/
+x0
+11
+12
+13
+14
+15
+16
+1C
+0D
+1E
+0F
+1G
+1H
+0I
+1J
+1K
+0L
+1M
+1N
+0O
+1P
+1Q
+0R
+1S
+1T
+1U
+1V
+1W
+1X
+1Y
+1Z
+0[
+0\
+0]
+0^
+1_
+1`
+1a
+0b
+0c
+0d
+1e
+1f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+1s
+0&
+1'
+0(
+1)
+1*
+0+
+1,
+0-
+07
+18
+09
+1:
+1;
+0<
+1=
+0>
+1?
+0@
+1A
+0B
+1!
+0"
+1#
+0$
+$end
+#1000000
